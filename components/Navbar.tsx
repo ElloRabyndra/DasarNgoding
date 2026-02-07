@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Code2, Menu, X } from "lucide-react";
@@ -36,32 +37,32 @@ const Navbar = () => {
       <div className="container mx-auto xl:px-24">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
+          <Link href="#" className="flex items-center gap-2 group">
             <div className="w-10 h-10 gradient-cta rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
               <Code2 className="w-5 h-5 text-foreground" />
             </div>
             <span className="font-bold text-lg text-foreground">
               DasarNgoding
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.href}
                 className="text-muted-foreground hover:text-foreground transition-colors font-medium"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
-            <a
+            <Link
               href="#cta"
               className="bg-brand-cream text-brand-dark hover:bg-brand-cream/90 font-semibold rounded-lg px-2 py-1.5"
             >
               Mulai Belajar
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -87,20 +88,20 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
                   href={link.href}
                   className="text-muted-foreground hover:text-foreground transition-colors font-medium py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
-              <a href="#cta">
+              <Link href="#cta">
                 <Button className="bg-brand-cream text-brand-dark hover:bg-brand-cream/90 font-semibold rounded-lg w-full">
                   Mulai Belajar
                 </Button>
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}

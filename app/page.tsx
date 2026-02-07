@@ -1,9 +1,9 @@
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
-import LearningSection from "@/components/LearningSection";
-import SocialSection from "@/components/SocialSection";
-import CTASection from "@/components/CTASection";
+import HeroSection from "@/components/Hero/HeroSection";
+import AboutSection from "@/components/About/AboutSection";
+import LearningSection from "@/components/Learning/LearningSection";
+import SocialSection from "@/components/Social/SocialSection";
+import CTASection from "@/components/CTA/CTASection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
