@@ -20,7 +20,7 @@ const HeroContent = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-foreground tracking-tight"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-foreground tracking-tight"
         >
           Dasar<span className="text-accent">Ngoding</span>
         </motion.h1>
