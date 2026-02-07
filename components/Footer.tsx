@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            © 2024 DasarNgoding. All rights reserved.
+            © 2026 DasarNgoding. All rights reserved.
           </p>
         </div>
       </div>
