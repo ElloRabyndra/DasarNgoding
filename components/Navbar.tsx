@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Code2, Menu, X } from "lucide-react";
@@ -38,12 +39,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="#" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 gradient-cta rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
-              <Code2 className="w-5 h-5 text-foreground" />
-            </div>
-            <span className="font-bold text-lg text-foreground">
-              DasarNgoding
-            </span>
+            <Image
+              src="/logo-no-bg.png"
+              alt="CodeLearn Logo"
+              width={100}
+              height={32}
+              className=" group-hover:animate-pulse transition-transform"
+            />
           </Link>
 
           {/* Desktop Nav */}
