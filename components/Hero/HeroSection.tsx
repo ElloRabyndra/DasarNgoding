@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className="min-h-screen px-6 xl:px-12 gradient-hero relative overflow-hidden">
       <HeroBackground />
 
-      <div className="container relative z-10 py-40 lg:py-32 mx-auto xl:px-24">
+      <div className="container relative z-10 py-40 md:py-48  lg:py-44 mx-auto xl:px-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <HeroContent />
           <HeroIllustration />
