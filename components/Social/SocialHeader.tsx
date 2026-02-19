@@ -20,7 +20,7 @@ const SocialHeader = ({ isInView }: SocialHeaderProps) => {
         </span>
       </div>
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-        Belajar Bareng DasarNgoding
+        Belajar Bareng Dasar<span className="text-accent">Ngoding</span>
       </h2>
       <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
         Konten tersedia dalam bentuk video singkat dan praktik langsung. Follow

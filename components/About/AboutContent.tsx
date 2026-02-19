@@ -17,7 +17,7 @@ const AboutContent = ({ isInView }: AboutContentProps) => {
       </div>
 
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-        Tentang DasarNgoding
+        Tentang Dasar<span className="text-accent">Ngoding</span>
       </h2>
 
       <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
