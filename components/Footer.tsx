@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="pb-6 md:pb-0 px-6 xl:px-12 bg-brand-darker border-t border-border">
+    <footer className="py-4  px-6 xl:px-12 bg-brand-darker border-t border-border">
       <div className="container mx-auto xl:px-24">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
@@ -17,8 +17,8 @@ const Footer = () => {
             />
           </div>
 
-          <p className="text-sm text-muted-foreground -mt-8 md:mt-0">
-            © 2026 DasarNgoding. All rights reserved.
+          <p className="text-sm text-muted-foreground -mt-3 md:mt-0">
+            © 2026. All rights reserved.
           </p>
         </div>
       </div>

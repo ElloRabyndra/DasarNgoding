@@ -44,7 +44,7 @@ const Navbar = () => {
               alt="CodeLearn Logo"
               width={100}
               height={32}
-              className=" group-hover:animate-pulse transition-transform"
+              className="w-20 sm:w-24 md:w-28 group-hover:animate-pulse transition-transform"
             />
           </Link>
 
