@@ -54,21 +54,21 @@ Semua konten dasar kami tersedia gratis. Karena kami percaya akses ke edukasi pr
 - **Career Switchers**: Kamu yang mau transisi karir ke tech
 - **Students**: Kamu yang belajar CS/IT tapi merasa kuliah terlalu teoritis
 
-## 📱 Ikuti Kami
+## Ikuti Kami
 
 Konten edukatif kami tersebar di berbagai platform:
 
-#### 🎬 **TikTok** - [@dasarngoding](https://tiktok.com/@dasarngoding)
+#### **TikTok** - [@dasarngoding](https://tiktok.com/@dasarngoding)
 Video pendek & tutorial cepat untuk konsep-konsep programming. Perfect untuk belajar sambil jalan!
 
-#### 📸 **Instagram** - [@dasarngoding.id](https://instagram.com/dasarngoding.id)
+#### **Instagram** - [@dasarngoding.id](https://instagram.com/dasarngoding.id)
 Tips harian, infografis programming, dan insight dari dunia coding. Daily dose of programming knowledge!
 
-#### 💻 **GitHub** - [DasarNgoding](https://github.com/DasarNgoding)
+#### *GitHub** - [DasarNgoding](https://github.com/DasarNgoding)
 Source code, project examples, dan resources untuk mendukung pembelajaran kamu. Open source dan free!
 
 
-## 📬 Hubungi Kami
+## Hubungi Kami
 
 Punya pertanyaan, saran, atau feedback? Kami senang mendengar dari kamu!
 
@@ -79,6 +79,6 @@ Punya pertanyaan, saran, atau feedback? Kami senang mendengar dari kamu!
 ---
 
 
-**🌱 Belajar pelan-pelan, tapi konsisten. 🌱**
+** Belajar pelan-pelan, tapi konsisten. **
 
 *DasarNgoding - Fokus Fundamental, Bukan Shortcut*
